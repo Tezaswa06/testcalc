@@ -16,12 +16,7 @@ public class Main {
     }
 
     static double naturalLog(double x) {
-        if (x <= 0) {
-            System.out.println("Natural Logarithm is not defined for non-positive numbers.");
-            return Double.NaN;
-        } else {
             return Math.log(x);
-        }
     }
 
     static double exponent(double x, double exponent) {
