@@ -1,0 +1,5 @@
+---
+- hosts: localhost
+  tasks:
+    - name: Pull Docker image from Docker Hub
+      shell: docker pull tezaswa/testcalc:latest
