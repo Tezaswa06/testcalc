@@ -4,8 +4,7 @@
   tasks:
     - name: Build Docker Image
       command: docker build -t testcalc.jar .
-      args:
-        chdir: /var/lib/jenkins/workspace/testcalc
+
 
     - name: tag image
       command: docker tag calculator.jar tezaswa/testcalc:latest
