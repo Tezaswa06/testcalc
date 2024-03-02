@@ -2,7 +2,5 @@
   hosts: localhost
 
   tasks:
-    - name: Pull Docker image from Docker Hub
-      shell: docker pull tezaswa2/calculator:latest
     - name: Run Docker container
       shell: docker run -d -p 8081:8080 tezaswa2/calculator:latest
