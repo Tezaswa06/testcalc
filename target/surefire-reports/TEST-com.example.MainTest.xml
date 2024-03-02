@@ -61,8 +61,8 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.example.MainTest" name="testExponent" time="0.004"/>
+  <testcase classname="com.example.MainTest" name="testExponent" time="0.003"/>
   <testcase classname="com.example.MainTest" name="testFactorial" time="0"/>
   <testcase classname="com.example.MainTest" name="testNaturalLog" time="0"/>
-  <testcase classname="com.example.MainTest" name="testSquareRoot" time="0"/>
+  <testcase classname="com.example.MainTest" name="testSquareRoot" time="0.001"/>
 </testsuite>
