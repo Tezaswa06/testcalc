@@ -5,7 +5,7 @@
     - name: Build Image
       command: docker build -t testcalc.jar .
       args:
-        chdir: /var/lib/jenkins/workspace/testing\ enviornment
+        chdir: /var/lib/jenkins/workspace/testing_enviornment
     - name: Log in to Docker Hub
       community.docker.docker_login:
           registry_url: https://index.docker.io/v1/
