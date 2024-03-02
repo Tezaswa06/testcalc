@@ -1,6 +1,7 @@
 FROM openjdk:11
 
-ADD target/testcalc.jar testcalc.jar
+WORKDIR /app
 
-ENTRYPOINT ["java","-jar","testcalc.jar"]
+COPY target/testcalc.jar testcalc.jar
 
+ENTRYPOINT ["java", "-jar", "testcalc.jar"]
