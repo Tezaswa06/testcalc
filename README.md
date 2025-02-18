@@ -18,8 +18,8 @@ Before you proceed, ensure you have the following installed:
 
 First, clone the ida-auth-sdk repository to your local machine:
 
-- git clone https://github.com/mosip/ida-auth-sdk/tree/release-0.9.x
-- cd ida-auth-sdk
+- `git clone https://github.com/mosip/ida-auth-sdk/tree/release-0.9.x`
+- `cd ida-auth-sdk`
 
 <a href="https://ibb.co/23mymDxm"><img src="https://i.ibb.co/zVjrjypj/doc1.png" alt="doc1" border="0"></a>
 
@@ -45,23 +45,23 @@ Execute the certgen.sh script to generate the required certificates:
 
 -   On Windows:
     
-    -   Open Git Bash and run: bash certgen.sh
+    -   Open Git Bash and run: `bash certgen.sh`
         
         
     -   Alternatively, double-click certgen.sh to execute it.
         
--   On Linux/macOS: bash certgen.sh
+-   On Linux/macOS: `bash certgen.sh`
     
     
 
 ## Step 5: Retrieve Generated Certificates
 
-Once certgen.sh executes successfully:
+Once `certgen.sh` executes successfully:
 
 -   A new folder with the partner name (as set in cert.properties) will be created.
 -   Inside this folder, you will find the required certificates:
-    -   client.pem
-    -   rootca.pem
+    -   `client.pem`
+    -   `rootca.pem`
     
     <a href="https://imgbb.com/"><img src="https://i.ibb.co/3xTqSs9/doc3.png" alt="doc3" border="0"></a>
         
@@ -190,9 +190,6 @@ The partner can also deactivate a particular API Key by clicking on the cross-ma
 -   If encountering permission issues while running certgen.sh, use:
     
     
-    chmod +x certgen.sh
-    
-    
-    before executing the script.
+    `chmod +x certgen.sh`   before executing the script.
     
 -   If you have access to the QA environment, you will need to have access to the WireGuard VPN as well to ensure secure connectivity.
