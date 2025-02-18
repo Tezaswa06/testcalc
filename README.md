@@ -18,8 +18,8 @@ Before you proceed, ensure you have the following installed:
 
 First, clone the ida-auth-sdk repository to your local machine:
 
-git clone https://github.com/mosip/ida-auth-sdk/tree/release-0.9.x
-cd ida-auth-sdk
+- git clone https://github.com/mosip/ida-auth-sdk/tree/release-0.9.x
+- cd ida-auth-sdk
 
 <a href="https://ibb.co/23mymDxm"><img src="https://i.ibb.co/zVjrjypj/doc1.png" alt="doc1" border="0"></a>
 
